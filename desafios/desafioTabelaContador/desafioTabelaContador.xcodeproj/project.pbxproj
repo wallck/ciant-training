@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E8CA901B90C4DE00528ED2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CA8F1B90C4DE00528ED2 /* main.m */; };
+		64E8CA931B90C4DE00528ED2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CA921B90C4DE00528ED2 /* AppDelegate.m */; };
+		64E8CA961B90C4DE00528ED2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CA951B90C4DE00528ED2 /* ViewController.m */; };
+		64E8CA991B90C4DE00528ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E8CA971B90C4DE00528ED2 /* Main.storyboard */; };
+		64E8CA9B1B90C4DE00528ED2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E8CA9A1B90C4DE00528ED2 /* Images.xcassets */; };
+		64E8CA9E1B90C4DE00528ED2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E8CA9C1B90C4DE00528ED2 /* LaunchScreen.xib */; };
+		64E8CAAA1B90C4DE00528ED2 /* desafioTabelaContadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CAA91B90C4DE00528ED2 /* desafioTabelaContadorTests.m */; };
+		64E8CAB51B90C85B00528ED2 /* Contador.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CAB41B90C85B00528ED2 /* Contador.m */; };
+		64E8CAB81B90D37200528ED2 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CAB71B90D37200528ED2 /* TabBarController.m */; };
+		64E8CABB1B90D6C200528ED2 /* ListagemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8CABA1B90D6C200528ED2 /* ListagemViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64E8CAA41B90C4DE00528ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E8CA821B90C4DE00528ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E8CA891B90C4DE00528ED2;
+			remoteInfo = desafioTabelaContador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64E8CA8A1B90C4DE00528ED2 /* desafioTabelaContador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioTabelaContador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8CA8E1B90C4DE00528ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E8CA8F1B90C4DE00528ED2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E8CA911B90C4DE00528ED2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E8CA921B90C4DE00528ED2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64E8CA941B90C4DE00528ED2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64E8CA951B90C4DE00528ED2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64E8CA981B90C4DE00528ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E8CA9A1B90C4DE00528ED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64E8CA9D1B90C4DE00528ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64E8CAA31B90C4DE00528ED2 /* desafioTabelaContadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioTabelaContadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8CAA81B90C4DE00528ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E8CAA91B90C4DE00528ED2 /* desafioTabelaContadorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafioTabelaContadorTests.m; sourceTree = "<group>"; };
+		64E8CAB31B90C85B00528ED2 /* Contador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contador.h; sourceTree = "<group>"; };
+		64E8CAB41B90C85B00528ED2 /* Contador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contador.m; sourceTree = "<group>"; };
+		64E8CAB61B90D37200528ED2 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		64E8CAB71B90D37200528ED2 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		64E8CAB91B90D6C200528ED2 /* ListagemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListagemViewController.h; sourceTree = "<group>"; };
+		64E8CABA1B90D6C200528ED2 /* ListagemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListagemViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E8CA871B90C4DE00528ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E8CAA01B90C4DE00528ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E8CA811B90C4DE00528ED2 = {
+			isa = PBXGroup;
+			children = (
+				64E8CA8C1B90C4DE00528ED2 /* desafioTabelaContador */,
+				64E8CAA61B90C4DE00528ED2 /* desafioTabelaContadorTests */,
+				64E8CA8B1B90C4DE00528ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E8CA8B1B90C4DE00528ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E8CA8A1B90C4DE00528ED2 /* desafioTabelaContador.app */,
+				64E8CAA31B90C4DE00528ED2 /* desafioTabelaContadorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E8CA8C1B90C4DE00528ED2 /* desafioTabelaContador */ = {
+			isa = PBXGroup;
+			children = (
+				64E8CA911B90C4DE00528ED2 /* AppDelegate.h */,
+				64E8CA921B90C4DE00528ED2 /* AppDelegate.m */,
+				64E8CA941B90C4DE00528ED2 /* ViewController.h */,
+				64E8CA951B90C4DE00528ED2 /* ViewController.m */,
+				64E8CAB91B90D6C200528ED2 /* ListagemViewController.h */,
+				64E8CABA1B90D6C200528ED2 /* ListagemViewController.m */,
+				64E8CAB61B90D37200528ED2 /* TabBarController.h */,
+				64E8CAB71B90D37200528ED2 /* TabBarController.m */,
+				64E8CA971B90C4DE00528ED2 /* Main.storyboard */,
+				64E8CAB31B90C85B00528ED2 /* Contador.h */,
+				64E8CAB41B90C85B00528ED2 /* Contador.m */,
+				64E8CA9A1B90C4DE00528ED2 /* Images.xcassets */,
+				64E8CA9C1B90C4DE00528ED2 /* LaunchScreen.xib */,
+				64E8CA8D1B90C4DE00528ED2 /* Supporting Files */,
+			);
+			path = desafioTabelaContador;
+			sourceTree = "<group>";
+		};
+		64E8CA8D1B90C4DE00528ED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E8CA8E1B90C4DE00528ED2 /* Info.plist */,
+				64E8CA8F1B90C4DE00528ED2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64E8CAA61B90C4DE00528ED2 /* desafioTabelaContadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				64E8CAA91B90C4DE00528ED2 /* desafioTabelaContadorTests.m */,
+				64E8CAA71B90C4DE00528ED2 /* Supporting Files */,
+			);
+			path = desafioTabelaContadorTests;
+			sourceTree = "<group>";
+		};
+		64E8CAA71B90C4DE00528ED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E8CAA81B90C4DE00528ED2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E8CA891B90C4DE00528ED2 /* desafioTabelaContador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E8CAAD1B90C4DE00528ED2 /* Build configuration list for PBXNativeTarget "desafioTabelaContador" */;
+			buildPhases = (
+				64E8CA861B90C4DE00528ED2 /* Sources */,
+				64E8CA871B90C4DE00528ED2 /* Frameworks */,
+				64E8CA881B90C4DE00528ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioTabelaContador;
+			productName = desafioTabelaContador;
+			productReference = 64E8CA8A1B90C4DE00528ED2 /* desafioTabelaContador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64E8CAA21B90C4DE00528ED2 /* desafioTabelaContadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E8CAB01B90C4DE00528ED2 /* Build configuration list for PBXNativeTarget "desafioTabelaContadorTests" */;
+			buildPhases = (
+				64E8CA9F1B90C4DE00528ED2 /* Sources */,
+				64E8CAA01B90C4DE00528ED2 /* Frameworks */,
+				64E8CAA11B90C4DE00528ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E8CAA51B90C4DE00528ED2 /* PBXTargetDependency */,
+			);
+			name = desafioTabelaContadorTests;
+			productName = desafioTabelaContadorTests;
+			productReference = 64E8CAA31B90C4DE00528ED2 /* desafioTabelaContadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E8CA821B90C4DE00528ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Wallace Goncalves de Oliveira";
+				TargetAttributes = {
+					64E8CA891B90C4DE00528ED2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					64E8CAA21B90C4DE00528ED2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 64E8CA891B90C4DE00528ED2;
+					};
+				};
+			};
+			buildConfigurationList = 64E8CA851B90C4DE00528ED2 /* Build configuration list for PBXProject "desafioTabelaContador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E8CA811B90C4DE00528ED2;
+			productRefGroup = 64E8CA8B1B90C4DE00528ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E8CA891B90C4DE00528ED2 /* desafioTabelaContador */,
+				64E8CAA21B90C4DE00528ED2 /* desafioTabelaContadorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E8CA881B90C4DE00528ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E8CA991B90C4DE00528ED2 /* Main.storyboard in Resources */,
+				64E8CA9E1B90C4DE00528ED2 /* LaunchScreen.xib in Resources */,
+				64E8CA9B1B90C4DE00528ED2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E8CAA11B90C4DE00528ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E8CA861B90C4DE00528ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E8CA961B90C4DE00528ED2 /* ViewController.m in Sources */,
+				64E8CA931B90C4DE00528ED2 /* AppDelegate.m in Sources */,
+				64E8CABB1B90D6C200528ED2 /* ListagemViewController.m in Sources */,
+				64E8CAB81B90D37200528ED2 /* TabBarController.m in Sources */,
+				64E8CA901B90C4DE00528ED2 /* main.m in Sources */,
+				64E8CAB51B90C85B00528ED2 /* Contador.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E8CA9F1B90C4DE00528ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E8CAAA1B90C4DE00528ED2 /* desafioTabelaContadorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E8CAA51B90C4DE00528ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E8CA891B90C4DE00528ED2 /* desafioTabelaContador */;
+			targetProxy = 64E8CAA41B90C4DE00528ED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64E8CA971B90C4DE00528ED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E8CA981B90C4DE00528ED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E8CA9C1B90C4DE00528ED2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E8CA9D1B90C4DE00528ED2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E8CAAB1B90C4DE00528ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64E8CAAC1B90C4DE00528ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E8CAAE1B90C4DE00528ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = desafioTabelaContador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64E8CAAF1B90C4DE00528ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = desafioTabelaContador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64E8CAB11B90C4DE00528ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = desafioTabelaContadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioTabelaContador.app/desafioTabelaContador";
+			};
+			name = Debug;
+		};
+		64E8CAB21B90C4DE00528ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = desafioTabelaContadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioTabelaContador.app/desafioTabelaContador";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E8CA851B90C4DE00528ED2 /* Build configuration list for PBXProject "desafioTabelaContador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E8CAAB1B90C4DE00528ED2 /* Debug */,
+				64E8CAAC1B90C4DE00528ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E8CAAD1B90C4DE00528ED2 /* Build configuration list for PBXNativeTarget "desafioTabelaContador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E8CAAE1B90C4DE00528ED2 /* Debug */,
+				64E8CAAF1B90C4DE00528ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64E8CAB01B90C4DE00528ED2 /* Build configuration list for PBXNativeTarget "desafioTabelaContadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E8CAB11B90C4DE00528ED2 /* Debug */,
+				64E8CAB21B90C4DE00528ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E8CA821B90C4DE00528ED2 /* Project object */;
+}

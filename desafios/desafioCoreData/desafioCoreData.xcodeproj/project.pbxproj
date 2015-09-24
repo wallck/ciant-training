@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BA9E651BA31AA700A70B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E641BA31AA700A70B55 /* main.m */; };
+		64BA9E681BA31AA700A70B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E671BA31AA700A70B55 /* AppDelegate.m */; };
+		64BA9E6B1BA31AA700A70B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E6A1BA31AA700A70B55 /* ViewController.m */; };
+		64BA9E6E1BA31AA700A70B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BA9E6C1BA31AA700A70B55 /* Main.storyboard */; };
+		64BA9E711BA31AA700A70B55 /* desafioCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E6F1BA31AA700A70B55 /* desafioCoreData.xcdatamodeld */; };
+		64BA9E731BA31AA700A70B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA9E721BA31AA700A70B55 /* Assets.xcassets */; };
+		64BA9E761BA31AA700A70B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BA9E741BA31AA700A70B55 /* LaunchScreen.storyboard */; };
+		64BA9E811BA31AA700A70B55 /* desafioCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E801BA31AA700A70B55 /* desafioCoreDataTests.m */; };
+		64BA9E8C1BA31AA700A70B55 /* desafioCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E8B1BA31AA700A70B55 /* desafioCoreDataUITests.m */; };
+		64BA9EA91BA32FF400A70B55 /* Product+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E9A1BA32FF400A70B55 /* Product+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAA1BA32FF400A70B55 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E9C1BA32FF400A70B55 /* Product.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAB1BA32FF400A70B55 /* Client+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9E9E1BA32FF400A70B55 /* Client+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAC1BA32FF400A70B55 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EA01BA32FF400A70B55 /* Client.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAD1BA32FF400A70B55 /* OrderItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EA21BA32FF400A70B55 /* OrderItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAE1BA32FF400A70B55 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EA41BA32FF400A70B55 /* OrderItem.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EAF1BA32FF400A70B55 /* Order+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EA61BA32FF400A70B55 /* Order+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EB01BA32FF400A70B55 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EA81BA32FF400A70B55 /* Order.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EB31BA3360500A70B55 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EB21BA3360500A70B55 /* OrdersViewController.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EB61BA3468D00A70B55 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EB51BA3468D00A70B55 /* OrderTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		64BA9EB91BA34CF300A70B55 /* AlertBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BA9EB81BA34CF300A70B55 /* AlertBox.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BA9E7D1BA31AA700A70B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BA9E581BA31AA700A70B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BA9E5F1BA31AA700A70B55;
+			remoteInfo = desafioCoreData;
+		};
+		64BA9E881BA31AA700A70B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BA9E581BA31AA700A70B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BA9E5F1BA31AA700A70B55;
+			remoteInfo = desafioCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64BA9E601BA31AA700A70B55 /* desafioCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA9E641BA31AA700A70B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64BA9E661BA31AA700A70B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64BA9E671BA31AA700A70B55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64BA9E691BA31AA700A70B55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64BA9E6A1BA31AA700A70B55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64BA9E6D1BA31AA700A70B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64BA9E701BA31AA700A70B55 /* desafioCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = desafioCoreData.xcdatamodel; sourceTree = "<group>"; };
+		64BA9E721BA31AA700A70B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BA9E751BA31AA700A70B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64BA9E771BA31AA700A70B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA9E7C1BA31AA700A70B55 /* desafioCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA9E801BA31AA700A70B55 /* desafioCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafioCoreDataTests.m; sourceTree = "<group>"; };
+		64BA9E821BA31AA700A70B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA9E871BA31AA700A70B55 /* desafioCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA9E8B1BA31AA700A70B55 /* desafioCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafioCoreDataUITests.m; sourceTree = "<group>"; };
+		64BA9E8D1BA31AA700A70B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA9E991BA32FF400A70B55 /* Product+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Product+CoreDataProperties.h"; path = "untitled folder/Product+CoreDataProperties.h"; sourceTree = "<group>"; };
+		64BA9E9A1BA32FF400A70B55 /* Product+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Product+CoreDataProperties.m"; path = "untitled folder/Product+CoreDataProperties.m"; sourceTree = "<group>"; };
+		64BA9E9B1BA32FF400A70B55 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = "untitled folder/Product.h"; sourceTree = "<group>"; };
+		64BA9E9C1BA32FF400A70B55 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = "untitled folder/Product.m"; sourceTree = "<group>"; };
+		64BA9E9D1BA32FF400A70B55 /* Client+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Client+CoreDataProperties.h"; path = "untitled folder/Client+CoreDataProperties.h"; sourceTree = "<group>"; };
+		64BA9E9E1BA32FF400A70B55 /* Client+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Client+CoreDataProperties.m"; path = "untitled folder/Client+CoreDataProperties.m"; sourceTree = "<group>"; };
+		64BA9E9F1BA32FF400A70B55 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = "untitled folder/Client.h"; sourceTree = "<group>"; };
+		64BA9EA01BA32FF400A70B55 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = "untitled folder/Client.m"; sourceTree = "<group>"; };
+		64BA9EA11BA32FF400A70B55 /* OrderItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OrderItem+CoreDataProperties.h"; path = "untitled folder/OrderItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		64BA9EA21BA32FF400A70B55 /* OrderItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "OrderItem+CoreDataProperties.m"; path = "untitled folder/OrderItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		64BA9EA31BA32FF400A70B55 /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItem.h; path = "untitled folder/OrderItem.h"; sourceTree = "<group>"; };
+		64BA9EA41BA32FF400A70B55 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItem.m; path = "untitled folder/OrderItem.m"; sourceTree = "<group>"; };
+		64BA9EA51BA32FF400A70B55 /* Order+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Order+CoreDataProperties.h"; path = "untitled folder/Order+CoreDataProperties.h"; sourceTree = "<group>"; };
+		64BA9EA61BA32FF400A70B55 /* Order+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Order+CoreDataProperties.m"; path = "untitled folder/Order+CoreDataProperties.m"; sourceTree = "<group>"; };
+		64BA9EA71BA32FF400A70B55 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = "untitled folder/Order.h"; sourceTree = "<group>"; };
+		64BA9EA81BA32FF400A70B55 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = "untitled folder/Order.m"; sourceTree = "<group>"; };
+		64BA9EB11BA3360500A70B55 /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		64BA9EB21BA3360500A70B55 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		64BA9EB41BA3468D00A70B55 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		64BA9EB51BA3468D00A70B55 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		64BA9EB71BA34CF300A70B55 /* AlertBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBox.h; sourceTree = "<group>"; };
+		64BA9EB81BA34CF300A70B55 /* AlertBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BA9E5D1BA31AA700A70B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E791BA31AA700A70B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E841BA31AA700A70B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BA9E571BA31AA700A70B55 = {
+			isa = PBXGroup;
+			children = (
+				64BA9E621BA31AA700A70B55 /* desafioCoreData */,
+				64BA9E7F1BA31AA700A70B55 /* desafioCoreDataTests */,
+				64BA9E8A1BA31AA700A70B55 /* desafioCoreDataUITests */,
+				64BA9E611BA31AA700A70B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BA9E611BA31AA700A70B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9E601BA31AA700A70B55 /* desafioCoreData.app */,
+				64BA9E7C1BA31AA700A70B55 /* desafioCoreDataTests.xctest */,
+				64BA9E871BA31AA700A70B55 /* desafioCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BA9E621BA31AA700A70B55 /* desafioCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9E661BA31AA700A70B55 /* AppDelegate.h */,
+				64BA9E671BA31AA700A70B55 /* AppDelegate.m */,
+				64BA9E691BA31AA700A70B55 /* ViewController.h */,
+				64BA9E6A1BA31AA700A70B55 /* ViewController.m */,
+				64BA9E6C1BA31AA700A70B55 /* Main.storyboard */,
+				64BA9EB41BA3468D00A70B55 /* OrderTableViewCell.h */,
+				64BA9EB51BA3468D00A70B55 /* OrderTableViewCell.m */,
+				64BA9EB11BA3360500A70B55 /* OrdersViewController.h */,
+				64BA9EB21BA3360500A70B55 /* OrdersViewController.m */,
+				64BA9EB71BA34CF300A70B55 /* AlertBox.h */,
+				64BA9EB81BA34CF300A70B55 /* AlertBox.m */,
+				64BA9E721BA31AA700A70B55 /* Assets.xcassets */,
+				64BA9E741BA31AA700A70B55 /* LaunchScreen.storyboard */,
+				64BA9E771BA31AA700A70B55 /* Info.plist */,
+				64BA9E6F1BA31AA700A70B55 /* desafioCoreData.xcdatamodeld */,
+				64BA9E991BA32FF400A70B55 /* Product+CoreDataProperties.h */,
+				64BA9E9A1BA32FF400A70B55 /* Product+CoreDataProperties.m */,
+				64BA9E9B1BA32FF400A70B55 /* Product.h */,
+				64BA9E9C1BA32FF400A70B55 /* Product.m */,
+				64BA9E9D1BA32FF400A70B55 /* Client+CoreDataProperties.h */,
+				64BA9E9E1BA32FF400A70B55 /* Client+CoreDataProperties.m */,
+				64BA9E9F1BA32FF400A70B55 /* Client.h */,
+				64BA9EA01BA32FF400A70B55 /* Client.m */,
+				64BA9EA11BA32FF400A70B55 /* OrderItem+CoreDataProperties.h */,
+				64BA9EA21BA32FF400A70B55 /* OrderItem+CoreDataProperties.m */,
+				64BA9EA31BA32FF400A70B55 /* OrderItem.h */,
+				64BA9EA41BA32FF400A70B55 /* OrderItem.m */,
+				64BA9EA51BA32FF400A70B55 /* Order+CoreDataProperties.h */,
+				64BA9EA61BA32FF400A70B55 /* Order+CoreDataProperties.m */,
+				64BA9EA71BA32FF400A70B55 /* Order.h */,
+				64BA9EA81BA32FF400A70B55 /* Order.m */,
+				64BA9E631BA31AA700A70B55 /* Supporting Files */,
+			);
+			path = desafioCoreData;
+			sourceTree = "<group>";
+		};
+		64BA9E631BA31AA700A70B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9E641BA31AA700A70B55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64BA9E7F1BA31AA700A70B55 /* desafioCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9E801BA31AA700A70B55 /* desafioCoreDataTests.m */,
+				64BA9E821BA31AA700A70B55 /* Info.plist */,
+			);
+			path = desafioCoreDataTests;
+			sourceTree = "<group>";
+		};
+		64BA9E8A1BA31AA700A70B55 /* desafioCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64BA9E8B1BA31AA700A70B55 /* desafioCoreDataUITests.m */,
+				64BA9E8D1BA31AA700A70B55 /* Info.plist */,
+			);
+			path = desafioCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BA9E5F1BA31AA700A70B55 /* desafioCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA9E901BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreData" */;
+			buildPhases = (
+				64BA9E5C1BA31AA700A70B55 /* Sources */,
+				64BA9E5D1BA31AA700A70B55 /* Frameworks */,
+				64BA9E5E1BA31AA700A70B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioCoreData;
+			productName = desafioCoreData;
+			productReference = 64BA9E601BA31AA700A70B55 /* desafioCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BA9E7B1BA31AA700A70B55 /* desafioCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA9E931BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreDataTests" */;
+			buildPhases = (
+				64BA9E781BA31AA700A70B55 /* Sources */,
+				64BA9E791BA31AA700A70B55 /* Frameworks */,
+				64BA9E7A1BA31AA700A70B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BA9E7E1BA31AA700A70B55 /* PBXTargetDependency */,
+			);
+			name = desafioCoreDataTests;
+			productName = desafioCoreDataTests;
+			productReference = 64BA9E7C1BA31AA700A70B55 /* desafioCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64BA9E861BA31AA700A70B55 /* desafioCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA9E961BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreDataUITests" */;
+			buildPhases = (
+				64BA9E831BA31AA700A70B55 /* Sources */,
+				64BA9E841BA31AA700A70B55 /* Frameworks */,
+				64BA9E851BA31AA700A70B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BA9E891BA31AA700A70B55 /* PBXTargetDependency */,
+			);
+			name = desafioCoreDataUITests;
+			productName = desafioCoreDataUITests;
+			productReference = 64BA9E871BA31AA700A70B55 /* desafioCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BA9E581BA31AA700A70B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wallace Goncalves de Oliveira";
+				TargetAttributes = {
+					64BA9E5F1BA31AA700A70B55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+					};
+					64BA9E7B1BA31AA700A70B55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+						TestTargetID = 64BA9E5F1BA31AA700A70B55;
+					};
+					64BA9E861BA31AA700A70B55 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+						TestTargetID = 64BA9E5F1BA31AA700A70B55;
+					};
+				};
+			};
+			buildConfigurationList = 64BA9E5B1BA31AA700A70B55 /* Build configuration list for PBXProject "desafioCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BA9E571BA31AA700A70B55;
+			productRefGroup = 64BA9E611BA31AA700A70B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BA9E5F1BA31AA700A70B55 /* desafioCoreData */,
+				64BA9E7B1BA31AA700A70B55 /* desafioCoreDataTests */,
+				64BA9E861BA31AA700A70B55 /* desafioCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BA9E5E1BA31AA700A70B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA9E761BA31AA700A70B55 /* LaunchScreen.storyboard in Resources */,
+				64BA9E731BA31AA700A70B55 /* Assets.xcassets in Resources */,
+				64BA9E6E1BA31AA700A70B55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E7A1BA31AA700A70B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E851BA31AA700A70B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BA9E5C1BA31AA700A70B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA9E6B1BA31AA700A70B55 /* ViewController.m in Sources */,
+				64BA9E681BA31AA700A70B55 /* AppDelegate.m in Sources */,
+				64BA9EAC1BA32FF400A70B55 /* Client.m in Sources */,
+				64BA9EA91BA32FF400A70B55 /* Product+CoreDataProperties.m in Sources */,
+				64BA9EB31BA3360500A70B55 /* OrdersViewController.m in Sources */,
+				64BA9EAA1BA32FF400A70B55 /* Product.m in Sources */,
+				64BA9EB61BA3468D00A70B55 /* OrderTableViewCell.m in Sources */,
+				64BA9E711BA31AA700A70B55 /* desafioCoreData.xcdatamodeld in Sources */,
+				64BA9EB91BA34CF300A70B55 /* AlertBox.m in Sources */,
+				64BA9EB01BA32FF400A70B55 /* Order.m in Sources */,
+				64BA9E651BA31AA700A70B55 /* main.m in Sources */,
+				64BA9EAD1BA32FF400A70B55 /* OrderItem+CoreDataProperties.m in Sources */,
+				64BA9EAF1BA32FF400A70B55 /* Order+CoreDataProperties.m in Sources */,
+				64BA9EAB1BA32FF400A70B55 /* Client+CoreDataProperties.m in Sources */,
+				64BA9EAE1BA32FF400A70B55 /* OrderItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E781BA31AA700A70B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA9E811BA31AA700A70B55 /* desafioCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA9E831BA31AA700A70B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA9E8C1BA31AA700A70B55 /* desafioCoreDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BA9E7E1BA31AA700A70B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BA9E5F1BA31AA700A70B55 /* desafioCoreData */;
+			targetProxy = 64BA9E7D1BA31AA700A70B55 /* PBXContainerItemProxy */;
+		};
+		64BA9E891BA31AA700A70B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BA9E5F1BA31AA700A70B55 /* desafioCoreData */;
+			targetProxy = 64BA9E881BA31AA700A70B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64BA9E6C1BA31AA700A70B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA9E6D1BA31AA700A70B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64BA9E741BA31AA700A70B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BA9E751BA31AA700A70B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BA9E8E1BA31AA700A70B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64BA9E8F1BA31AA700A70B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BA9E911BA31AA700A70B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = desafioCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64BA9E921BA31AA700A70B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = desafioCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64BA9E941BA31AA700A70B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = desafioCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioCoreData.app/desafioCoreData";
+			};
+			name = Debug;
+		};
+		64BA9E951BA31AA700A70B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = desafioCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioCoreData.app/desafioCoreData";
+			};
+			name = Release;
+		};
+		64BA9E971BA31AA700A70B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = desafioCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = desafioCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64BA9E981BA31AA700A70B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = desafioCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.desafioCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = desafioCoreData;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BA9E5B1BA31AA700A70B55 /* Build configuration list for PBXProject "desafioCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA9E8E1BA31AA700A70B55 /* Debug */,
+				64BA9E8F1BA31AA700A70B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BA9E901BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA9E911BA31AA700A70B55 /* Debug */,
+				64BA9E921BA31AA700A70B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64BA9E931BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA9E941BA31AA700A70B55 /* Debug */,
+				64BA9E951BA31AA700A70B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64BA9E961BA31AA700A70B55 /* Build configuration list for PBXNativeTarget "desafioCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA9E971BA31AA700A70B55 /* Debug */,
+				64BA9E981BA31AA700A70B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64BA9E6F1BA31AA700A70B55 /* desafioCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64BA9E701BA31AA700A70B55 /* desafioCoreData.xcdatamodel */,
+			);
+			currentVersion = 64BA9E701BA31AA700A70B55 /* desafioCoreData.xcdatamodel */;
+			path = desafioCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64BA9E581BA31AA700A70B55 /* Project object */;
+}

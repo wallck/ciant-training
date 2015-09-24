@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xdm-xk-8B4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Goat" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-UY-gqk">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="418"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlr-lS-QfD">
+                                        <rect key="frame" x="133" y="418" width="110" height="30"/>
+                                        <state key="normal" title="Adicionar Cabra"/>
+                                        <connections>
+                                            <action selector="adicionarCabra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VF9-el-LQZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmy-wS-GMn">
+                                        <rect key="frame" x="157" y="448" width="61" height="30"/>
+                                        <state key="normal" title="Remover"/>
+                                        <connections>
+                                            <action selector="removerCabra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EhF-US-3T3"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qrs-Ri-FbY">
+                                        <rect key="frame" x="0.0" y="478" width="375" height="169"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xdm-xk-8B4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9h1-DA-Buh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xdm-xk-8B4" secondAttribute="bottom" id="EXM-QQ-xvd"/>
+                            <constraint firstAttribute="trailing" secondItem="xdm-xk-8B4" secondAttribute="trailing" id="QHz-hE-Vma"/>
+                            <constraint firstItem="xdm-xk-8B4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d0v-Wj-m8h"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="stackViewCabras" destination="qrs-Ri-FbY" id="gPe-Mw-nhe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="308.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Goat" width="900" height="600"/>
+    </resources>
+</document>
