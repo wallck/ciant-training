@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6469FDCD1BA35A60007CF6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDCC1BA35A60007CF6BC /* main.m */; };
+		6469FDD01BA35A60007CF6BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDCF1BA35A60007CF6BC /* AppDelegate.m */; };
+		6469FDD31BA35A60007CF6BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDD21BA35A60007CF6BC /* ViewController.m */; };
+		6469FDD61BA35A60007CF6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469FDD41BA35A60007CF6BC /* Main.storyboard */; };
+		6469FDD81BA35A60007CF6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469FDD71BA35A60007CF6BC /* Assets.xcassets */; };
+		6469FDDB1BA35A60007CF6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469FDD91BA35A60007CF6BC /* LaunchScreen.storyboard */; };
+		6469FDE61BA35A60007CF6BC /* magicalMogenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDE51BA35A60007CF6BC /* magicalMogenTests.m */; };
+		6469FDF11BA35A60007CF6BC /* magicalMogenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDF01BA35A60007CF6BC /* magicalMogenUITests.m */; };
+		6469FE001BA35B68007CF6BC /* MagicalMogen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6469FDFE1BA35B68007CF6BC /* MagicalMogen.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		6469FE091BA35D5C007CF6BC /* _Empresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FE021BA35D5C007CF6BC /* _Empresa.m */; settings = {ASSET_TAGS = (); }; };
+		6469FE0A1BA35D5C007CF6BC /* _Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FE041BA35D5C007CF6BC /* _Pessoa.m */; settings = {ASSET_TAGS = (); }; };
+		6469FE0B1BA35D5C007CF6BC /* Empresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FE061BA35D5C007CF6BC /* Empresa.m */; settings = {ASSET_TAGS = (); }; };
+		6469FE0C1BA35D5C007CF6BC /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469FE081BA35D5C007CF6BC /* Pessoa.m */; settings = {ASSET_TAGS = (); }; };
+		6469FE111BA3616D007CF6BC /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6469FE101BA3616D007CF6BC /* MagicalRecord.framework */; settings = {ASSET_TAGS = (); }; };
+		6469FE131BA36A01007CF6BC /* MagicalRecord.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6469FE101BA3616D007CF6BC /* MagicalRecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6469FDE21BA35A60007CF6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6469FDC01BA35A60007CF6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6469FDC71BA35A60007CF6BC;
+			remoteInfo = magicalMogen;
+		};
+		6469FDED1BA35A60007CF6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6469FDC01BA35A60007CF6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6469FDC71BA35A60007CF6BC;
+			remoteInfo = magicalMogen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6469FE121BA369E2007CF6BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6469FE131BA36A01007CF6BC /* MagicalRecord.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6469FDC81BA35A60007CF6BC /* magicalMogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magicalMogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6469FDCC1BA35A60007CF6BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6469FDCE1BA35A60007CF6BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6469FDCF1BA35A60007CF6BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6469FDD11BA35A60007CF6BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6469FDD21BA35A60007CF6BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6469FDD51BA35A60007CF6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6469FDD71BA35A60007CF6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6469FDDA1BA35A60007CF6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6469FDDC1BA35A60007CF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6469FDE11BA35A60007CF6BC /* magicalMogenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicalMogenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6469FDE51BA35A60007CF6BC /* magicalMogenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magicalMogenTests.m; sourceTree = "<group>"; };
+		6469FDE71BA35A60007CF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6469FDEC1BA35A60007CF6BC /* magicalMogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicalMogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6469FDF01BA35A60007CF6BC /* magicalMogenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magicalMogenUITests.m; sourceTree = "<group>"; };
+		6469FDF21BA35A60007CF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6469FDFF1BA35B68007CF6BC /* MagicalMogen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicalMogen.xcdatamodel; sourceTree = "<group>"; };
+		6469FE011BA35D5C007CF6BC /* _Empresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Empresa.h; sourceTree = "<group>"; };
+		6469FE021BA35D5C007CF6BC /* _Empresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Empresa.m; sourceTree = "<group>"; };
+		6469FE031BA35D5C007CF6BC /* _Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Pessoa.h; sourceTree = "<group>"; };
+		6469FE041BA35D5C007CF6BC /* _Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Pessoa.m; sourceTree = "<group>"; };
+		6469FE051BA35D5C007CF6BC /* Empresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empresa.h; sourceTree = "<group>"; };
+		6469FE061BA35D5C007CF6BC /* Empresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empresa.m; sourceTree = "<group>"; };
+		6469FE071BA35D5C007CF6BC /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		6469FE081BA35D5C007CF6BC /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+		6469FE101BA3616D007CF6BC /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MagicalRecord.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6469FDC51BA35A60007CF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469FE111BA3616D007CF6BC /* MagicalRecord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDDE1BA35A60007CF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDE91BA35A60007CF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6469FDBF1BA35A60007CF6BC = {
+			isa = PBXGroup;
+			children = (
+				6469FDCA1BA35A60007CF6BC /* magicalMogen */,
+				6469FDE41BA35A60007CF6BC /* magicalMogenTests */,
+				6469FDEF1BA35A60007CF6BC /* magicalMogenUITests */,
+				6469FDC91BA35A60007CF6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6469FDC91BA35A60007CF6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6469FDC81BA35A60007CF6BC /* magicalMogen.app */,
+				6469FDE11BA35A60007CF6BC /* magicalMogenTests.xctest */,
+				6469FDEC1BA35A60007CF6BC /* magicalMogenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6469FDCA1BA35A60007CF6BC /* magicalMogen */ = {
+			isa = PBXGroup;
+			children = (
+				6469FE101BA3616D007CF6BC /* MagicalRecord.framework */,
+				6469FDCE1BA35A60007CF6BC /* AppDelegate.h */,
+				6469FDCF1BA35A60007CF6BC /* AppDelegate.m */,
+				6469FDD11BA35A60007CF6BC /* ViewController.h */,
+				6469FDD21BA35A60007CF6BC /* ViewController.m */,
+				6469FDFE1BA35B68007CF6BC /* MagicalMogen.xcdatamodeld */,
+				6469FE011BA35D5C007CF6BC /* _Empresa.h */,
+				6469FE021BA35D5C007CF6BC /* _Empresa.m */,
+				6469FE031BA35D5C007CF6BC /* _Pessoa.h */,
+				6469FE041BA35D5C007CF6BC /* _Pessoa.m */,
+				6469FE051BA35D5C007CF6BC /* Empresa.h */,
+				6469FE061BA35D5C007CF6BC /* Empresa.m */,
+				6469FE071BA35D5C007CF6BC /* Pessoa.h */,
+				6469FE081BA35D5C007CF6BC /* Pessoa.m */,
+				6469FDD41BA35A60007CF6BC /* Main.storyboard */,
+				6469FDD71BA35A60007CF6BC /* Assets.xcassets */,
+				6469FDD91BA35A60007CF6BC /* LaunchScreen.storyboard */,
+				6469FDDC1BA35A60007CF6BC /* Info.plist */,
+				6469FDCB1BA35A60007CF6BC /* Supporting Files */,
+			);
+			path = magicalMogen;
+			sourceTree = "<group>";
+		};
+		6469FDCB1BA35A60007CF6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6469FDCC1BA35A60007CF6BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6469FDE41BA35A60007CF6BC /* magicalMogenTests */ = {
+			isa = PBXGroup;
+			children = (
+				6469FDE51BA35A60007CF6BC /* magicalMogenTests.m */,
+				6469FDE71BA35A60007CF6BC /* Info.plist */,
+			);
+			path = magicalMogenTests;
+			sourceTree = "<group>";
+		};
+		6469FDEF1BA35A60007CF6BC /* magicalMogenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6469FDF01BA35A60007CF6BC /* magicalMogenUITests.m */,
+				6469FDF21BA35A60007CF6BC /* Info.plist */,
+			);
+			path = magicalMogenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6469FDC71BA35A60007CF6BC /* magicalMogen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6469FDF51BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogen" */;
+			buildPhases = (
+				6469FDC41BA35A60007CF6BC /* Sources */,
+				6469FDC51BA35A60007CF6BC /* Frameworks */,
+				6469FDC61BA35A60007CF6BC /* Resources */,
+				6469FE0D1BA35E46007CF6BC /* ShellScript */,
+				6469FE121BA369E2007CF6BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magicalMogen;
+			productName = magicalMogen;
+			productReference = 6469FDC81BA35A60007CF6BC /* magicalMogen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6469FDE01BA35A60007CF6BC /* magicalMogenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6469FDF81BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogenTests" */;
+			buildPhases = (
+				6469FDDD1BA35A60007CF6BC /* Sources */,
+				6469FDDE1BA35A60007CF6BC /* Frameworks */,
+				6469FDDF1BA35A60007CF6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6469FDE31BA35A60007CF6BC /* PBXTargetDependency */,
+			);
+			name = magicalMogenTests;
+			productName = magicalMogenTests;
+			productReference = 6469FDE11BA35A60007CF6BC /* magicalMogenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6469FDEB1BA35A60007CF6BC /* magicalMogenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6469FDFB1BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogenUITests" */;
+			buildPhases = (
+				6469FDE81BA35A60007CF6BC /* Sources */,
+				6469FDE91BA35A60007CF6BC /* Frameworks */,
+				6469FDEA1BA35A60007CF6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6469FDEE1BA35A60007CF6BC /* PBXTargetDependency */,
+			);
+			name = magicalMogenUITests;
+			productName = magicalMogenUITests;
+			productReference = 6469FDEC1BA35A60007CF6BC /* magicalMogenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6469FDC01BA35A60007CF6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wallace Goncalves de Oliveira";
+				TargetAttributes = {
+					6469FDC71BA35A60007CF6BC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+					};
+					6469FDE01BA35A60007CF6BC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+						TestTargetID = 6469FDC71BA35A60007CF6BC;
+					};
+					6469FDEB1BA35A60007CF6BC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9E5LCY4RP8;
+						TestTargetID = 6469FDC71BA35A60007CF6BC;
+					};
+				};
+			};
+			buildConfigurationList = 6469FDC31BA35A60007CF6BC /* Build configuration list for PBXProject "magicalMogen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6469FDBF1BA35A60007CF6BC;
+			productRefGroup = 6469FDC91BA35A60007CF6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6469FDC71BA35A60007CF6BC /* magicalMogen */,
+				6469FDE01BA35A60007CF6BC /* magicalMogenTests */,
+				6469FDEB1BA35A60007CF6BC /* magicalMogenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6469FDC61BA35A60007CF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469FDDB1BA35A60007CF6BC /* LaunchScreen.storyboard in Resources */,
+				6469FDD81BA35A60007CF6BC /* Assets.xcassets in Resources */,
+				6469FDD61BA35A60007CF6BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDDF1BA35A60007CF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDEA1BA35A60007CF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6469FE0D1BA35E46007CF6BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd MagicalMogen\nmogenerator --v2 --model MagicalMogen.xcdatamodeld";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6469FDC41BA35A60007CF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469FDD31BA35A60007CF6BC /* ViewController.m in Sources */,
+				6469FE001BA35B68007CF6BC /* MagicalMogen.xcdatamodeld in Sources */,
+				6469FDD01BA35A60007CF6BC /* AppDelegate.m in Sources */,
+				6469FE091BA35D5C007CF6BC /* _Empresa.m in Sources */,
+				6469FE0A1BA35D5C007CF6BC /* _Pessoa.m in Sources */,
+				6469FE0B1BA35D5C007CF6BC /* Empresa.m in Sources */,
+				6469FE0C1BA35D5C007CF6BC /* Pessoa.m in Sources */,
+				6469FDCD1BA35A60007CF6BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDDD1BA35A60007CF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469FDE61BA35A60007CF6BC /* magicalMogenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6469FDE81BA35A60007CF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469FDF11BA35A60007CF6BC /* magicalMogenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6469FDE31BA35A60007CF6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6469FDC71BA35A60007CF6BC /* magicalMogen */;
+			targetProxy = 6469FDE21BA35A60007CF6BC /* PBXContainerItemProxy */;
+		};
+		6469FDEE1BA35A60007CF6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6469FDC71BA35A60007CF6BC /* magicalMogen */;
+			targetProxy = 6469FDED1BA35A60007CF6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6469FDD41BA35A60007CF6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6469FDD51BA35A60007CF6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6469FDD91BA35A60007CF6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6469FDDA1BA35A60007CF6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6469FDF31BA35A60007CF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6469FDF41BA35A60007CF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6469FDF61BA35A60007CF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/magicalMogen",
+				);
+				INFOPLIST_FILE = magicalMogen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6469FDF71BA35A60007CF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/magicalMogen",
+				);
+				INFOPLIST_FILE = magicalMogen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6469FDF91BA35A60007CF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = magicalMogenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magicalMogen.app/magicalMogen";
+			};
+			name = Debug;
+		};
+		6469FDFA1BA35A60007CF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = magicalMogenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magicalMogen.app/magicalMogen";
+			};
+			name = Release;
+		};
+		6469FDFC1BA35A60007CF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = magicalMogenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = magicalMogen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6469FDFD1BA35A60007CF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = magicalMogenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bitzero.magicalMogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = magicalMogen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6469FDC31BA35A60007CF6BC /* Build configuration list for PBXProject "magicalMogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6469FDF31BA35A60007CF6BC /* Debug */,
+				6469FDF41BA35A60007CF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6469FDF51BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6469FDF61BA35A60007CF6BC /* Debug */,
+				6469FDF71BA35A60007CF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6469FDF81BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6469FDF91BA35A60007CF6BC /* Debug */,
+				6469FDFA1BA35A60007CF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6469FDFB1BA35A60007CF6BC /* Build configuration list for PBXNativeTarget "magicalMogenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6469FDFC1BA35A60007CF6BC /* Debug */,
+				6469FDFD1BA35A60007CF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6469FDFE1BA35B68007CF6BC /* MagicalMogen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6469FDFF1BA35B68007CF6BC /* MagicalMogen.xcdatamodel */,
+			);
+			currentVersion = 6469FDFF1BA35B68007CF6BC /* MagicalMogen.xcdatamodel */;
+			path = MagicalMogen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6469FDC01BA35A60007CF6BC /* Project object */;
+}

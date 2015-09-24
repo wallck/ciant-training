@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEK-hG-keM">
+                                <rect key="frame" x="145" y="28" width="84" height="30"/>
+                                <state key="normal" title="Criar Objeto">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="criarObjeto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NGE-FJ-oso"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Z-Ow-AOY">
+                                <rect key="frame" x="152" y="112" width="71" height="30"/>
+                                <state key="normal" title="Disparar 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Disparar1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Edr-3m-zcR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4p-NG-lzx">
+                                <rect key="frame" x="135" y="150" width="104" height="30"/>
+                                <state key="normal" title="Disparar Todos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dispararTodos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vIp-UG-tZ8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: %@" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghk-sd-yQ3">
+                                <rect key="frame" x="16" y="66" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPM-fa-pmf">
+                                <rect key="frame" x="16" y="188" width="343" height="459"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EPM-fa-pmf" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0wd-T0-6QL"/>
+                            <constraint firstAttribute="centerX" secondItem="R0Z-Ow-AOY" secondAttribute="centerX" id="1M4-QZ-9WB"/>
+                            <constraint firstItem="R0Z-Ow-AOY" firstAttribute="top" secondItem="ghk-sd-yQ3" secondAttribute="bottom" constant="25" id="2wh-RD-DSO"/>
+                            <constraint firstItem="ghk-sd-yQ3" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="8JQ-An-h9I"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="EPM-fa-pmf" secondAttribute="bottom" constant="20" id="C5d-mu-4gU"/>
+                            <constraint firstAttribute="centerX" secondItem="qEK-hG-keM" secondAttribute="centerX" id="EWV-6y-eEG"/>
+                            <constraint firstItem="ghk-sd-yQ3" firstAttribute="top" secondItem="qEK-hG-keM" secondAttribute="bottom" constant="8" id="Lav-s4-Y7U"/>
+                            <constraint firstItem="ghk-sd-yQ3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="NsA-qz-lTK"/>
+                            <constraint firstAttribute="centerX" secondItem="o4p-NG-lzx" secondAttribute="centerX" id="RJb-mu-Lux"/>
+                            <constraint firstItem="o4p-NG-lzx" firstAttribute="top" secondItem="R0Z-Ow-AOY" secondAttribute="bottom" constant="8" id="cVz-MB-Mbn"/>
+                            <constraint firstItem="EPM-fa-pmf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="esq-Bc-FFZ"/>
+                            <constraint firstItem="qEK-hG-keM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="qPt-K9-gjz"/>
+                            <constraint firstItem="EPM-fa-pmf" firstAttribute="top" secondItem="o4p-NG-lzx" secondAttribute="bottom" constant="8" id="uIU-Bb-UOs"/>
+                            <constraint firstAttribute="centerX" secondItem="ghk-sd-yQ3" secondAttribute="centerX" id="wEs-sw-2r6"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="textView" destination="EPM-fa-pmf" id="gRb-Vp-uIJ"/>
+                        <outlet property="totalLabel" destination="ghk-sd-yQ3" id="71u-pb-gUk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="308.5"/>
+        </scene>
+    </scenes>
+</document>

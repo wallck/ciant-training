@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome Arquivo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORK-M6-Au7">
+                                <rect key="frame" x="16" y="32" width="110" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1qw-Sk-QbI"/>
+                                    <constraint firstAttribute="width" constant="110" id="ADg-zq-G5x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Arquivo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so3-rf-ZFJ">
+                                <rect key="frame" x="16" y="75" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KW9-cT-2YF">
+                                <rect key="frame" x="230" y="28" width="129" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gxa-1W-Arn"/>
+                                    <constraint firstAttribute="width" constant="129" id="w6w-5d-n05"/>
+                                </constraints>
+                                <state key="normal" title="Carregar Arquivo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carregarArquivo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kem-GJ-Blb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-k5-4bM">
+                                <rect key="frame" x="230" y="71" width="129" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kmD-5b-FdJ"/>
+                                    <constraint firstAttribute="width" constant="129" id="x5G-iQ-whE"/>
+                                </constraints>
+                                <state key="normal" title="Copiar Arquivo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="copiarArquivo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aN0-T5-wrF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJS-LZ-LNQ">
+                                <rect key="frame" x="230" y="151" width="129" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HZP-dM-wJW"/>
+                                    <constraint firstAttribute="width" constant="129" id="XnW-FR-Lxf"/>
+                                </constraints>
+                                <state key="normal" title="Apagar TUDO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="apagarTUDO:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ydr-o3-WPK"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wHi-Xv-Fp7">
+                                <rect key="frame" x="16" y="112" width="343" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="UpU-dc-fq3"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Documents"/>
+                                    <segment title="Cache"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mudouDestino:" destination="vXZ-lx-hvc" eventType="valueChanged" id="9ap-vj-a8p"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Copia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR0-lB-dkC">
+                                <rect key="frame" x="16" y="155" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KW9-cT-2YF" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="0Sy-Cr-I4e"/>
+                            <constraint firstItem="wHi-Xv-Fp7" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="E9w-FB-M3b"/>
+                            <constraint firstItem="so3-rf-ZFJ" firstAttribute="top" secondItem="ORK-M6-Au7" secondAttribute="bottom" constant="22" id="GGr-NF-XOw"/>
+                            <constraint firstItem="5cr-k5-4bM" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="GOg-5C-fkb"/>
+                            <constraint firstItem="cR0-lB-dkC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="IKm-Ec-NjM"/>
+                            <constraint firstItem="KW9-cT-2YF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="NhN-Qx-wD6"/>
+                            <constraint firstItem="WJS-LZ-LNQ" firstAttribute="top" secondItem="wHi-Xv-Fp7" secondAttribute="bottom" constant="11" id="RRo-9P-f57"/>
+                            <constraint firstItem="so3-rf-ZFJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Wfo-CB-zNy"/>
+                            <constraint firstItem="ORK-M6-Au7" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="12" id="eSk-mW-LYN"/>
+                            <constraint firstItem="WJS-LZ-LNQ" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="fuV-tV-Ze9"/>
+                            <constraint firstItem="5cr-k5-4bM" firstAttribute="top" secondItem="KW9-cT-2YF" secondAttribute="bottom" constant="13" id="hEE-qn-jY5"/>
+                            <constraint firstItem="wHi-Xv-Fp7" firstAttribute="top" secondItem="5cr-k5-4bM" secondAttribute="bottom" constant="11" id="kOV-a1-WaZ"/>
+                            <constraint firstItem="cR0-lB-dkC" firstAttribute="top" secondItem="wHi-Xv-Fp7" secondAttribute="bottom" constant="15" id="riT-CG-pNQ"/>
+                            <constraint firstItem="wHi-Xv-Fp7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="v3Z-js-w0M"/>
+                            <constraint firstItem="ORK-M6-Au7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="xDB-Sg-E3e"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="apagarTUDOButton" destination="WJS-LZ-LNQ" id="8Bc-7B-baO"/>
+                        <outlet property="carregarArquivoButton" destination="KW9-cT-2YF" id="LHz-SS-FBI"/>
+                        <outlet property="copiarArquivoButton" destination="5cr-k5-4bM" id="1SI-7g-9q4"/>
+                        <outlet property="destinoSegment" destination="wHi-Xv-Fp7" id="t9t-Lo-69P"/>
+                        <outlet property="nomeArquivoLabel" destination="ORK-M6-Au7" id="7kr-dr-BuS"/>
+                        <outlet property="statusArquivoLabel" destination="so3-rf-ZFJ" id="Y1X-R1-aPH"/>
+                        <outlet property="statusCopiaLabel" destination="cR0-lB-dkC" id="4CL-Vi-yFX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="341.5" y="318.5"/>
+        </scene>
+    </scenes>
+</document>

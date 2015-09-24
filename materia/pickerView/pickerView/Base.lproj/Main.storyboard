@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DYP-Oz-zgg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Simples-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rUk-5c-ZT8">
+                                <rect key="frame" x="0.0" y="253" width="375" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="QwL-3w-cAx"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Xss-gr-8W4"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="rUk-5c-ZT8" secondAttribute="centerX" id="5e3-eN-dtQ"/>
+                            <constraint firstAttribute="centerY" secondItem="rUk-5c-ZT8" secondAttribute="centerY" id="CNE-Sc-9D8"/>
+                            <constraint firstAttribute="trailing" secondItem="rUk-5c-ZT8" secondAttribute="trailing" id="rp0-TI-Lyz"/>
+                            <constraint firstItem="rUk-5c-ZT8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tRV-Yg-tBS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Simples" id="ncv-hW-LSC"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.5" y="1163.5"/>
+        </scene>
+        <!--Atribuído-->
+        <scene sceneID="8ob-1J-WTH">
+            <objects>
+                <viewController id="JFw-od-JlR" customClass="SimplesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1uq-PL-tnc"/>
+                        <viewControllerLayoutGuide type="bottom" id="eYf-uj-US7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xBP-ds-t1f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSS-nV-W7c">
+                                <rect key="frame" x="0.0" y="253" width="375" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="JFw-od-JlR" id="Nf7-s5-t2h"/>
+                                    <outlet property="delegate" destination="JFw-od-JlR" id="XDt-aZ-dhf"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qSS-nV-W7c" secondAttribute="trailing" id="AFa-KY-F9a"/>
+                            <constraint firstAttribute="centerY" secondItem="qSS-nV-W7c" secondAttribute="centerY" id="FV4-FM-dDq"/>
+                            <constraint firstAttribute="centerX" secondItem="qSS-nV-W7c" secondAttribute="centerX" id="osv-vI-SYJ"/>
+                            <constraint firstItem="qSS-nV-W7c" firstAttribute="leading" secondItem="xBP-ds-t1f" secondAttribute="leading" id="pgg-0k-j3k"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Atribuído" id="y95-4H-ZPA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4xK-X0-cde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491.5" y="1163.5"/>
+        </scene>
+        <!--View-->
+        <scene sceneID="qqT-pj-kCN">
+            <objects>
+                <viewController id="0ba-jY-9Mf" customClass="ViewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m1R-90-BZs"/>
+                        <viewControllerLayoutGuide type="bottom" id="nvP-PK-Dgo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="grx-Ok-sbi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsz-t2-jx0">
+                                <rect key="frame" x="0.0" y="253" width="375" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0ba-jY-9Mf" id="2EV-uE-hgu"/>
+                                    <outlet property="delegate" destination="0ba-jY-9Mf" id="49d-Yj-g6N"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="lsz-t2-jx0" secondAttribute="centerX" id="XMT-5v-jNt"/>
+                            <constraint firstAttribute="trailing" secondItem="lsz-t2-jx0" secondAttribute="trailing" id="cwu-YE-TH6"/>
+                            <constraint firstItem="lsz-t2-jx0" firstAttribute="leading" secondItem="grx-Ok-sbi" secondAttribute="leading" id="dWN-OB-Sh8"/>
+                            <constraint firstAttribute="centerY" secondItem="lsz-t2-jx0" secondAttribute="centerY" id="ggk-fH-SdK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="View" id="GMq-4B-91q"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIH-lD-Bwy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="898.5" y="1163.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xB7-sW-mLT">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DYP-Oz-zgg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="jmn-d1-358">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="3TE-YN-Fdz"/>
+                        <segue destination="JFw-od-JlR" kind="relationship" relationship="viewControllers" id="V6A-qW-u9f"/>
+                        <segue destination="0ba-jY-9Mf" kind="relationship" relationship="viewControllers" id="jD5-Lj-Wfu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j7y-yz-GQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="307"/>
+        </scene>
+    </scenes>
+</document>

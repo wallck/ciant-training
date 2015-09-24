@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9cb-N8-7S4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I2s-bP-juF">
+                                <rect key="frame" x="16" y="28" width="343" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1d-Of-kLy">
+                                <rect key="frame" x="16" y="66" width="119" height="30"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTwitter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R8p-Xr-fXR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fz-Zn-Kcp">
+                                <rect key="frame" x="128" y="66" width="119" height="30"/>
+                                <state key="normal" title="Carregar Imagem">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carregarImagem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wnM-eD-PbY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoo-m1-Vec">
+                                <rect key="frame" x="240" y="66" width="119" height="30"/>
+                                <state key="normal" title="Facebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareFacebook:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tek-Sm-oyk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9cb-N8-7S4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="6vB-WW-3X4"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9cb-N8-7S4" secondAttribute="bottom" id="CXn-U2-G7r"/>
+                            <constraint firstItem="9cb-N8-7S4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="FZC-Jj-Y3O"/>
+                            <constraint firstItem="eoo-m1-Vec" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Fqu-Fy-KCF"/>
+                            <constraint firstItem="9fz-Zn-Kcp" firstAttribute="top" secondItem="I2s-bP-juF" secondAttribute="bottom" constant="8" id="GiU-CU-WjO"/>
+                            <constraint firstItem="eoo-m1-Vec" firstAttribute="top" secondItem="I2s-bP-juF" secondAttribute="bottom" constant="8" id="H5O-7S-dhZ"/>
+                            <constraint firstItem="I2s-bP-juF" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ipm-l1-y5O"/>
+                            <constraint firstItem="I2s-bP-juF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Ut1-U2-b08"/>
+                            <constraint firstItem="F1d-Of-kLy" firstAttribute="top" secondItem="I2s-bP-juF" secondAttribute="bottom" constant="8" id="WSZ-hC-SvB"/>
+                            <constraint firstItem="eoo-m1-Vec" firstAttribute="width" secondItem="9fz-Zn-Kcp" secondAttribute="width" id="fAZ-8l-FgM"/>
+                            <constraint firstAttribute="trailing" secondItem="9cb-N8-7S4" secondAttribute="trailing" id="hD8-v7-3Vy"/>
+                            <constraint firstItem="F1d-Of-kLy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="kal-rt-CZs"/>
+                            <constraint firstItem="I2s-bP-juF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="nha-Sq-8Zi"/>
+                            <constraint firstAttribute="centerX" secondItem="9fz-Zn-Kcp" secondAttribute="centerX" id="ojM-td-i78"/>
+                            <constraint firstItem="eoo-m1-Vec" firstAttribute="width" secondItem="F1d-Of-kLy" secondAttribute="width" id="wGo-Oz-0bA"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="botaoFacebook" destination="eoo-m1-Vec" id="kYE-Mo-2gg"/>
+                        <outlet property="botaoTwitter" destination="F1d-Of-kLy" id="VgW-8X-Ydo"/>
+                        <outlet property="fotoImageView" destination="9cb-N8-7S4" id="rpp-aG-VDK"/>
+                        <outlet property="legendaTextField" destination="I2s-bP-juF" id="pJs-hv-JEu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

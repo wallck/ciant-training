@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRn-pT-nju">
+                                <rect key="frame" x="16" y="28" width="343" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2di-f1-rja"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ACq-D0-RmV">
+                                <rect key="frame" x="14" y="105" width="347" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GRQ-o9-0jV"/>
+                                </constraints>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A1W-Nb-iCu">
+                                <rect key="frame" x="310" y="66" width="51" height="31"/>
+                                <animations/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aS-6e-ZME">
+                                <rect key="frame" x="16" y="617" width="50" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GSv-qZ-Yh9"/>
+                                    <constraint firstAttribute="width" constant="50" id="N9F-CK-JS0"/>
+                                </constraints>
+                                <state key="normal" title="Ler"/>
+                                <connections>
+                                    <action selector="readPrefs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJe-lD-gee"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Blk-FP-k5Q">
+                                <rect key="frame" x="309" y="617" width="50" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AQT-8l-xhl"/>
+                                    <constraint firstAttribute="width" constant="50" id="v5g-eK-uwl"/>
+                                </constraints>
+                                <state key="normal" title="Salvar"/>
+                                <connections>
+                                    <action selector="writePrefs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="384-Rl-OWI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zRn-pT-nju" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2YI-JE-5zd"/>
+                            <constraint firstItem="A1W-Nb-iCu" firstAttribute="top" secondItem="zRn-pT-nju" secondAttribute="bottom" constant="8" id="6aM-JH-cOr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8aS-6e-ZME" secondAttribute="bottom" constant="20" id="KqY-R0-KLM"/>
+                            <constraint firstItem="Blk-FP-k5Q" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Osg-gu-9Ba"/>
+                            <constraint firstItem="zRn-pT-nju" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Zdr-wb-1cx"/>
+                            <constraint firstItem="ACq-D0-RmV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="baf-y1-21a"/>
+                            <constraint firstItem="ACq-D0-RmV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dMa-f7-9rf"/>
+                            <constraint firstItem="A1W-Nb-iCu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="euK-Nj-Srq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Blk-FP-k5Q" secondAttribute="bottom" constant="20" id="hjD-kn-C4K"/>
+                            <constraint firstItem="8aS-6e-ZME" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ivf-Il-T87"/>
+                            <constraint firstItem="ACq-D0-RmV" firstAttribute="top" secondItem="A1W-Nb-iCu" secondAttribute="bottom" constant="8" id="kP5-jW-H4d"/>
+                            <constraint firstItem="zRn-pT-nju" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lbf-zV-sPq"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="zRn-pT-nju" id="LSd-qy-jrp"/>
+                        <outlet property="slider" destination="ACq-D0-RmV" id="mQX-ka-1aw"/>
+                        <outlet property="toggleSwitch" destination="A1W-Nb-iCu" id="5ge-PH-16m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
